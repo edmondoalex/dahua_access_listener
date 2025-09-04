@@ -1,0 +1,11 @@
+{
+  "domain": "dahua_access_listener",
+  "name": "Dahua Access Reader",
+  "version": "1.0.0",
+  "documentation": "https://www.example.com",
+  "dependencies": [],
+  "codeowners": ["@lucaed3001"],
+  "requirements": [],
+  "config_flow": true,
+  "platforms": ["sensor", "lock"]
+}
