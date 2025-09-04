@@ -4,6 +4,5 @@
   "domain": ["dahua_access_listener"],
   "country": "IT",
   "homeassistant": "2023.0.0",
-  "render_readme": true,
-  "logo": "https://devices.edmondoalex.it/static/images/logo.png"
+  "render_readme": true
 }
