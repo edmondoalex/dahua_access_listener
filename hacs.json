@@ -1,8 +1,8 @@
 {
-  "name": "Dahua Access Listener",
+  "name": "Dahua Access Reader",
   "content_in_root": false,
   "domain": ["dahua_access_listener"],
   "country": "IT",
-  "homeassistant": "2023.0.0",
+  "homeassistant": "2024.1.0",
   "render_readme": true
 }

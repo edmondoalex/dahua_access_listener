@@ -1,0 +1,14 @@
+open_relay:
+  name: Open relay
+  description: Opens one relay on the configured Dahua access reader.
+  fields:
+    relay:
+      name: Relay
+      description: Relay channel number.
+      required: true
+      example: 1
+      selector:
+        number:
+          min: 1
+          max: 8
+          mode: box
