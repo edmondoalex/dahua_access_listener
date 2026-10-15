@@ -38,7 +38,7 @@ def test_hacs_metadata_matches_runtime_domain():
     for path in (ROOT / "hacs.json", INTEGRATION / "hacs.json"):
         metadata = json.loads(path.read_text(encoding="utf-8"))
         assert metadata["name"] == "Dahua Access Reader"
-        assert metadata["domain"] == ["dahua_access_listener"]
+        assert "domain" not in metadata
 
 
 def test_setup_forwards_both_platforms_and_registers_service_once():
