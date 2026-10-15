@@ -7,12 +7,14 @@ import requests
 from requests.auth import HTTPDigestAuth
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
+from homeassistant.helpers import config_validation as cv
 from homeassistant.helpers.typing import ConfigType
 from .const import DOMAIN
 from .coordinator import DahuaDataCoordinator
 
 _LOGGER = logging.getLogger(__name__)
 _PLATFORMS = ["sensor", "lock"]
+CONFIG_SCHEMA = cv.config_entry_only_config_schema(DOMAIN)
 
 
 def start_dahua_stream(hass, coordinator, url, username, password, stop_event, runtime):

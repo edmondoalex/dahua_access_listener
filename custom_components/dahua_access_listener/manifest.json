@@ -1,13 +1,13 @@
 {
   "domain": "dahua_access_listener",
   "name": "Dahua Access Reader",
-  "version": "1.0.1",
-  "documentation": "https://github.com/edmondoalex/dahua_access_listener",
-  "issue_tracker": "https://github.com/edmondoalex/dahua_access_listener/issues",
-  "dependencies": [],
   "codeowners": ["@lucaed3001"],
-  "requirements": [],
   "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/edmondoalex/dahua_access_listener",
   "integration_type": "device",
-  "iot_class": "local_push"
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/edmondoalex/dahua_access_listener/issues",
+  "requirements": [],
+  "version": "1.0.1"
 }
