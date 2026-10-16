@@ -1,6 +1,6 @@
 # Dahua Access Listener
 
-**Versione componente: 1.0.1**
+**Versione componente: 1.0.2**
 
 ![Logo](logo.png)
 
