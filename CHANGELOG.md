@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [3.0.0] - 2026-10-16
+
+- Release di qualifica aggiornamento Ekonex; nessuna modifica funzionale.
+- Dominio, configurazione, entita, servizi e asset grafici invariati.
+
 ## [2.0.0] - 2026-10-16
 
 - Release canary Ekonex ufficiale, senza modifiche funzionali al componente.

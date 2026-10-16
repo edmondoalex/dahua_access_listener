@@ -29,7 +29,7 @@ def test_manifest_identity_and_real_documentation_are_stable():
     manifest = json.loads((INTEGRATION / "manifest.json").read_text(encoding="utf-8"))
     assert manifest["domain"] == "dahua_access_listener"
     assert manifest["name"] == "Dahua Access Reader"
-    assert manifest["version"] == "2.0.0"
+    assert manifest["version"] == "3.0.0"
     assert manifest["documentation"] == "https://github.com/edmondoalex/dahua_access_listener"
     assert manifest["iot_class"] == "local_push"
 
